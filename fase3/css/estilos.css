@@ -5,10 +5,12 @@ nav{
 section{
     background-color: rgb(210, 246, 197);
     grid-column: 1/4;
+    margin: 30PX auto;
 }
 aside{
     background-color: rgb(212, 247, 228);
     grid-column: 4/5;
+    margin: 30PX auto;
 }
 footer{
     background-color: rgb(5, 77, 78);
@@ -17,6 +19,8 @@ footer{
 main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 30PX auto;
+    
 }
 
 .Navegacion {
