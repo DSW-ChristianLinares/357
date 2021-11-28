@@ -1,0 +1,72 @@
+
+nav{
+    background-color: rgb(153, 243, 189);
+}
+section{
+    background-color: rgb(210, 246, 197);
+    grid-column: 1/4;
+    margin: 30PX auto;
+}
+aside{
+    background-color: rgb(88, 122, 85);
+    grid-column: 4/5;
+    margin: 30PX auto;
+}
+footer{
+    background-color: rgb(5, 77, 78);
+    color: floralwhite;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 30PX auto;
+    
+}
+
+.Navegacion {
+   
+    width: 1000px;
+    margin: 30PX auto;
+    
+
+}
+.Navegacion ul {
+     list-style: none;
+
+}
+.Menu > li {
+   
+    display: inline-block;
+}
+.Menu > li > a{
+     display: block;
+     padding: 15px 20px;
+     font-family: 'Times New Roman', Times, serif;
+     text-decoration: none;
+    
+}
+.Menu li a:hover{
+    color: white;
+    transition: all .3s;
+}
+.submenu{
+    position: absolute;
+    background-color: rgb(204, 228, 250);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+    
+}
+.submenu li a {
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: rgb(211, 18, 211) ;
+    width: 80%;
+
+}
+.Menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+
+}
